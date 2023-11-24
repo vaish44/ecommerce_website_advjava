@@ -1,0 +1,16 @@
+"-Dcatalina.base=C:\\Users\\samay\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0"
+"-Dcatalina.home=C:\\Users\\samay\\eclipse-workspace\\tomcat\\apache-tomcat-10.1.12"
+"-Dwtp.deploy=C:\\Users\\samay\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps"
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/java.io=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+-Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
+-classpath
+"C:\\Users\\samay\\eclipse-workspace\\tomcat\\apache-tomcat-10.1.12\\bin\\bootstrap.jar;C:\\Users\\samay\\eclipse-workspace\\tomcat\\apache-tomcat-10.1.12\\bin\\tomcat-juli.jar"
+-XX:+ShowCodeDetailsInExceptionMessages
+org.apache.catalina.startup.Bootstrap
+start
